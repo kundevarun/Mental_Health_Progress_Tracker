@@ -1,0 +1,114 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6DD5FA, #2980B9);
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 40px 60px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.login-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 30px;
+    background-color: #4285F4;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%;
+}
+
+.login-btn:hover {
+    background-color: #357AE8;
+    transform: scale(1.05);
+}
+
+.login-btn:focus {
+    outline: none;
+}
+
+.google-logo {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.login-btn span {
+    display: flex;
+    align-items: center;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #3498db;
+  }
+  
+  nav .logout-btn {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  nav .logout-btn:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+  }
+  
+  nav .logout-btn:focus {
+    outline: none;
+  }
+  
+  nav .logout-btn:active {
+    background-color: #e74c3c;
+    transform: scale(0.98);
+  }
+  

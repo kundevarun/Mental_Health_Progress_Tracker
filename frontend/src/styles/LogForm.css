@@ -1,0 +1,102 @@
+.log-form-container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #6DD5FA, #2980B9);
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+}
+
+.log-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.form-input {
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    color: #333;
+}
+
+.form-input:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.5);
+}
+
+.submit-btn {
+    padding: 14px 30px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-transform: uppercase;
+}
+
+.submit-btn:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+.submit-btn:focus {
+    outline: none;
+}
+
+.chart-btn {
+    padding: 12px 25px;
+    background-color: #80b41f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .chart-btn:hover {
+    background-color: #80b41f;
+    transform: scale(1.05);
+  }
+  
+  .chart-btn:focus {
+    outline: none;
+  }
+  
+  .chart-btn:active {
+    background-color: #80b41f;
+    transform: scale(0.98);
+  }
+  
